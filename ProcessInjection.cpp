@@ -25,7 +25,7 @@ int main(int argc, char* argv[]) {
         cout << "This program works with 2 arguments please enter the process name." << endl;
     }
     else {
-        //User Profile and base64.txt Path
+        //User Profile and obs_payload.txt Path
         string UserProfile = exec("echo %USERPROFILE%");
         UserProfile.erase(remove(UserProfile.begin(), UserProfile.end(), '\n'), UserProfile.end()); // remove '\n'
         string splitUserProfile = "\\Desktop\\obs_payload.txt";
